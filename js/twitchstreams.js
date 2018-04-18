@@ -1,4 +1,7 @@
 
+
+
+
 function startStream(playerWidth, playerHeigth, channelName)
 {
     var options = {
@@ -6,7 +9,7 @@ function startStream(playerWidth, playerHeigth, channelName)
         height: playerHeigth,
         channel: channelName,
     };
-    var player = new Twitch.Player("SamplePlayerDivID", options);
+    var player = new Twitch.Player("twitch-embed", options);
     player.setVolume(0.5);
 }
 
