@@ -1,0 +1,4 @@
+AuthName "PDF Access"
+AuthType Basic
+AuthUserFile /textbooks/.htpasswd
+require valid-user
