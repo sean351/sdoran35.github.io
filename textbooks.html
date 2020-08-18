@@ -14,17 +14,38 @@
     <h2 style="align-content: center;">Hello, and welcome to my PDF Listings</h2>
 
     <div class="container-lg px-3 my-5 markdown-body">
-      
-        <a href="http://www.mediafire.com/folder/3xjikpkhr97iq/TextBooks" target="_blank">TextBooks</a>
+        <small>password for both folders is:</small>
+
+        <button id="reveal-button" onclick="showPass()">Click to Reveal Password</button>
+
+        <p id="hidden-pass">cyclones2020</p>
+        <a href="https://iastate.box.com/s/rehpgkxhawrd8hh5uzn1lw8echwm5gwc" target="_blank">TextBooks</a>
         <br/>
-        <a href="http://www.mediafire.com/folder/xgp6xqpfrj59k/Resources" target="_blank">Other Resources</a>
+        <a href="https://iastate.box.com/s/tticqvl47bpi5q5rb24vjnryjygciurn" target="_blank">Other Resources</a>
         
-      
+
+
+        <h3>Upload new texbooks here:</h3>
+        <iframe src="https://iastate.app.box.com/f/f1ab60da3d0247f6a49ad8a7a60111f0" height="550" width="800"></iframe>
+
+
+        <h3>Upload any other resources here:</h3>
+        <iframe src="https://iastate.app.box.com/f/4b27d84e00d7450abc7c6d586ba98078" height="550" width="800"></iframe>
       
     </div>
     
     
     
+    <script>
+function showPass() {
+  var x = document.getElementById("hidden-pass");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
